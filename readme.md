@@ -1,19 +1,53 @@
-# install the venv package by running the following command
-  
-pip install virtualenv
+# Project Setup Instructions
 
-# Create a virtual environment for your project by running the following command in the Replit terminal
-  
-python -m venv venv
+## Installation
 
-#  Activate the virtual environment by running the appropriate command
+1. **Install the `virtualenv` package:**
 
-venv\Scripts\activate
+    Use the following command to install the `virtualenv` package:
 
-# Once the virtual environment is activated, install the necessary dependencies from the requirements.txt file by running the following command
+    ```bash
+    pip install virtualenv
+    ```
 
-pip install -r requirements.txt
+2. **Create a Virtual Environment:**
 
-#  With the virtual environment active and the dependencies installed, run the main.py file by entering the following command
+    In your project directory, create a virtual environment by running:
 
-streamlit run main.py
+    ```bash
+    python -m venv venv
+    ```
+
+3. **Activate the Virtual Environment:**
+
+    Activate the virtual environment using the following command:
+
+    On Windows:
+    ```bash
+    venv\Scripts\activate
+    ```
+
+    On macOS and Linux:
+    ```bash
+    source venv/bin/activate
+    ```
+
+4. **Install Dependencies:**
+
+    With the virtual environment active, install the necessary dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Running the Application
+
+- **Start the Application:**
+
+    Run your `main.py` file using Streamlit:
+
+    ```bash
+    streamlit run main.py
+    ```
+
+Remember to activate your virtual environment each time you work on the project.
